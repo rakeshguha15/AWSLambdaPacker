@@ -19,14 +19,15 @@ Instructions:
 	- Optionally you can also edit the "scripts" tag if the 
 	  Lambda Handler script is already available in your linux environment
 	- Please use full path for Available scripts (Please see example dependency.json)
-  - Please keep dependencies.json in the same directory as packager.py
+  	- Please keep dependencies.json in the same directory as packager.py
 	- Run the script using "python packager.py" (Where your default python is Python3, else use "python3 packager.py")
 	- This script will give you an output with the name of function.zip
 	- You can directly attach this zip to your Lambda Function (if you have already passed on
-	  your Lambda Handler Scripts
+	  your Lambda Handler Scripts)
 	- Else copy your Lambda Handler scripts into function.zip and attach
 	- You're free to rename function.zip with any name you want before attaching to Lambda
-	- You will recieve colorful warning messages if something goes wrong
+	- You will receive colourful warning messages if something goes wrong
+
 
 Ongoing Developmennt:
 	- Working on a way to configure AWS and directly attach it to Lambda (Please provide feedback if you want this to be enabled)
