@@ -21,12 +21,12 @@ try:
         subprocess.check_call(runt, shell=True)
     value = data.get('scripts')
     if value:
-        print("\n************************************\\n")
+        print("\n************************************\n")
         print("\nLambda Scripts found: Copying to package_elem")
         dest = CWD+"/package_elem"
         for elem in value:
             shutil.copy2(elem, dest)
-        print("\n************************************\\n")
+        print("\n************************************\n")
     else:
         print('\n'+TYELLOW+'WARNING: No Lambda Handler Found.'+ENDC)
         print('\n'+TYELLOW+'NOTE: Please add Lambda Hander files to the Zip'+ENDC)
