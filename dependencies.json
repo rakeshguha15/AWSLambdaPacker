@@ -1,0 +1,4 @@
+{
+"packages" : ["pandas","pymysql"], 
+"scripts" : ["/home/ec2-user/lambda_handler.py"]
+}
